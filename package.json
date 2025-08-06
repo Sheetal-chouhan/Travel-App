@@ -1,0 +1,32 @@
+{
+  "name": "travel-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheetal-chouhan/Travel-App.git"
+  },
+  "keywords": [],
+  "author": "Sheetal Chouhan",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sheetal-chouhan/Travel-App/issues"
+  },
+  "homepage": "https://github.com/Sheetal-chouhan/Travel-App#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^11.1.0"
+  }
+}
