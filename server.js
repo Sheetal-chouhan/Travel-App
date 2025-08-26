@@ -367,7 +367,7 @@ app.use("/api/hoteldata", hotelDataAddedToDBRouter);
 app.use("/api/categorydata", categoryDataAddedToDBRouter);
 app.use("/api/hotels", hotelRouter);
 app.use("/api/category", categoryRouter);
-app.use("/api/hotel", singleHotelRouter);
+app.use("/api/hotels", singleHotelRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/wishlist", wishlistRouter);
 
