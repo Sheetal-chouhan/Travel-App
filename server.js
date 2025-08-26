@@ -78,7 +78,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",              // local frontend
-      "https://your-frontend.onrender.com"  // deployed frontend
+      "https://travelss-booking.onrender.com/"  // deployed frontend
     ],
     credentials: true
   })
