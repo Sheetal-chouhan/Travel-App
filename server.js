@@ -209,9 +209,9 @@ const app = express();
 
 // ✅ Allow only your frontend origin
 const allowedOrigins = [
-    "https://travels-frontend.onrender.com",      // replace with your actual frontend URL
-    "http://localhost:3000"                       // local development
-          
+    // "http://localhost:3000",                     // local development
+    // "https://travels-frontend.onrender.com/api"      // replace with your actual frontend URL
+    "https://travelss-booking.onrender.com/api"
   ];
   
   app.use(
@@ -220,6 +220,9 @@ const allowedOrigins = [
       credentials: true, // allow cookies/headers if you use auth
     })
   );
+
+
+
   
 app.use(express.json());
 connectDB();
@@ -244,5 +247,6 @@ mongoose.connection.once("open", () => {
     console.log("Server is UP And Running");
   });
 });
+
 
 
